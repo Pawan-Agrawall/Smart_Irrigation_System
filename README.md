@@ -17,7 +17,7 @@ This project is a complete **IoT + ML Smart Irrigation System** integrating:
 
 # 📸 Hardware Setup
 
-<img src="images/hardware.jpg" width="600" />
+<img src="https://github.com/Pawan-Agrawall/Smart_Irrigation_System/blob/main/285bb8e4-0681-4aab-bef9-68c6c21f9f15.jpg?raw=true" width="600" />
 
 **Components Used:**
 - ESP32 Dev Board  
@@ -60,29 +60,31 @@ Without this, the chatbot will NOT respond.
 # 🚀 How to Run The Project
 
 ## 1️⃣ Install dependencies
+```
 pip install flask streamlit scikit-learn pandas numpy requests
-
+```
 
 ## 2️⃣ Train the ML Model
+```
 python train.py
-
+```
 
 This generates:
 rf_irrigation_model.pkl
 
-yaml
-Copy code
 
 ---
 
 ## 3️⃣ Start the Flask Backend
+```
 python demo.py
-
+```
 
 
 Server default:
+```
 http://localhost:5000
-
+```
 
 ---
 
@@ -104,10 +106,13 @@ ESP32 sends JSON like:
   "humidity": 61,
   "soil": 387
 }
+```
 5️⃣ Run the Streamlit Dashboard
 streamlit run app.py
 Opens at:
+```
 http://localhost:8501
+```
 Dashboard shows:
 
 Live sensor data
@@ -122,21 +127,23 @@ Gemini AI Advisor
 
 🌐 Flask API Endpoint
 POST /data
-json
-Copy code
+```
 {
   "temperature": 22.7,
   "humidity": 58.4,
   "soil": 76
 }
+```
 Response
+```
 {
   "prediction": "Moderate Irrigation Required",
   "water_needed": 74129.17,
   "level": 2
 }
+```
 🖥️ Streamlit UI Preview
-<img src="images/screenshot1.png" width="600" /> <img src="images/screenshot2.png" width="600" />
+<img src="https://github.com/Pawan-Agrawall/Smart_Irrigation_System/blob/main/Screenshot%202025-11-29%20130759.png?raw=true" width="600" /> <img src="https://github.com/Pawan-Agrawall/Smart_Irrigation_System/blob/main/Screenshot%202025-11-29%20130714.png?raw=true" width="600" />
 💡 Features
 🌡️ Real-time sensor data from ESP32
 
