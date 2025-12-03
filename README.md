@@ -17,7 +17,7 @@ This project is a complete **IoT + ML Smart Irrigation System** integrating:
 
 # 📸 Hardware Setup
 
-<img src="https://github.com/Pawan-Agrawall/Smart_Irrigation_System/blob/main/285bb8e4-0681-4aab-bef9-68c6c21f9f15.jpg?raw=true" width="600" />
+<img src="https://github.com/Pawan-Agrawall/Smart_Irrigation_System/blob/main/285bb8e4-0681-4aab-bef9-68c6c21f9f15.jpg?raw=true" width="600" style="transform: rotate(-90deg);" />
 
 **Components Used:**
 - ESP32 Dev Board  
@@ -143,7 +143,7 @@ Response
 }
 ```
 🖥️ Streamlit UI Preview
-<img src="https://github.com/Pawan-Agrawall/Smart_Irrigation_System/blob/main/Screenshot%202025-11-29%20130759.png?raw=true" width="600" /> <img src="https://github.com/Pawan-Agrawall/Smart_Irrigation_System/blob/main/Screenshot%202025-11-29%20130714.png?raw=true" width="600" />
+<img src="https://github.com/Pawan-Agrawall/Smart_Irrigation_System/blob/main/Screenshot%202025-11-29%20130759.png?raw=true" width="600" /> <br><img src="https://github.com/Pawan-Agrawall/Smart_Irrigation_System/blob/main/Screenshot%202025-11-29%20130714.png?raw=true" width="600" /><br>
 💡 Features
 🌡️ Real-time sensor data from ESP32
 
